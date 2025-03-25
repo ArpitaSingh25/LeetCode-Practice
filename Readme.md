@@ -1,2 +1,2 @@
 ### Leetcode Progress
-daily leetcode progress
+Daily leetcode progress
