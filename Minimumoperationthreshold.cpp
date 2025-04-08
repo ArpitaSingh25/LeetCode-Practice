@@ -1,3 +1,4 @@
+#bruteforce 
 class Solution {
 public:
     int minOperations(vector<int>& a, int k) {
