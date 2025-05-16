@@ -28,6 +28,7 @@ public:
         for (int i = 0; i < n; i++) {
             if (maxi == dp[i]) {
                 while (i != -1) {
+
                     result.push_back(words[i]);
                     i = parent[i];
                 }
