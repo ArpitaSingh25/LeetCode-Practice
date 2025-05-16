@@ -7,7 +7,6 @@ public:
             diffCount += word1[i] != word2[i];
         return diffCount == 1;
     }
-    
     vector<string> getWordsInLongestSubsequence(vector<string>& words, vector<int>& groups) {
         int n = groups.size();
         vector<int> dp(n, 1), parent(n, -1);
