@@ -23,8 +23,7 @@ public:
                 }
             }
             maxi = max(maxi, dp[i]);
-        }
-        
+        } 
         vector<string> result;
         for (int i = 0; i < n; i++) {
             if (maxi == dp[i]) {
